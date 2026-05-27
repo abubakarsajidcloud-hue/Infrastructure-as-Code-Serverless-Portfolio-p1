@@ -1,0 +1,61 @@
+# -----------------------------
+# Terraform
+# -----------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config
+.terraform.lock.hcl
+
+# -----------------------------
+# Lambda / Deployment packages
+# -----------------------------
+function.zip
+*.zip
+
+# -----------------------------
+# Python (Lambda)
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# -----------------------------
+# Local development tools
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Sensitive files (optional safety)
+# -----------------------------
+*.pem
+*.key
+*.env
