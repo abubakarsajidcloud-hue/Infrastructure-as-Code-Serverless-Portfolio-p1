@@ -592,53 +592,23 @@
     </div>
 
     <div class="projects">
-      <div class="proj reveal">
+      <a class="proj reveal" href="https://github.com/abubakarsajidcloud-hue/Infrastructure-as-Code-Serverless-Portfolio-p1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="proj-head"><div class="proj-num">PROJECT 01</div><div class="proj-status">deployed</div></div>
-        <h3 class="proj-title">Highly-Available 3-Tier Web App on AWS</h3>
-        <p class="proj-desc">Production-grade architecture spanning two Availability Zones with auto-scaling, Aurora database, and end-to-end TLS.</p>
-        <div class="proj-arch">Route 53 <span class="arrow">→</span> CloudFront <span class="arrow">→</span> ALB <span class="arrow">→</span> EC2 ASG <span class="arrow">→</span> Aurora Multi-AZ</div>
-        <div class="proj-tags"><span class="tag">Terraform</span><span class="tag">EC2</span><span class="tag">Aurora</span><span class="tag">ALB</span><span class="tag">VPC</span></div>
-      </div>
+        <h3 class="proj-title">Event-Driven Serverless Processing System</h3>
+        <p class="proj-desc">Fully serverless file-processing platform on AWS with event-driven Lambda workflows, Terraform-provisioned infrastructure, and CloudWatch observability — built end-to-end with Infrastructure as Code.</p>
+        <div class="proj-arch">API Gateway <span class="arrow">→</span> Lambda <span class="arrow">→</span> S3 <span class="arrow">→</span> CloudWatch</div>
+        <div class="proj-tags"><span class="tag">AWS Lambda</span><span class="tag">API Gateway</span><span class="tag">S3</span><span class="tag">IAM</span><span class="tag">CloudWatch</span><span class="tag">Terraform</span><span class="tag">Bash</span></div>
+        <div style="margin-top:18px;font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--cyan);">↗ View on GitHub</div>
+      </a>
 
-      <div class="proj reveal">
+      <a class="proj reveal" href="https://github.com/abubakarsajidcloud-hue/CloudOps-Lite" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="proj-head"><div class="proj-num">PROJECT 02</div><div class="proj-status">deployed</div></div>
-        <h3 class="proj-title">GitOps Pipeline with GitLab CI &amp; ECS</h3>
-        <p class="proj-desc">Push-to-deploy workflow: every merge to main triggers automated build, test, scan, and rolling deploy to AWS ECS.</p>
-        <div class="proj-arch">Git push <span class="arrow">→</span> GitLab CI <span class="arrow">→</span> Docker Build <span class="arrow">→</span> ECR <span class="arrow">→</span> ECS Rollout</div>
-        <div class="proj-tags"><span class="tag">GitLab CI</span><span class="tag">Docker</span><span class="tag">ECS</span><span class="tag">ECR</span><span class="tag">CodePipeline</span></div>
-      </div>
-
-      <div class="proj reveal">
-        <div class="proj-head"><div class="proj-num">PROJECT 03</div><div class="proj-status">deployed</div></div>
-        <h3 class="proj-title">Serverless Image Processing Pipeline</h3>
-        <p class="proj-desc">Event-driven architecture that resizes and optimizes images on upload — pay-per-use, infinitely scalable, zero servers.</p>
-        <div class="proj-arch">S3 Upload <span class="arrow">→</span> Lambda <span class="arrow">→</span> Sharp <span class="arrow">→</span> S3 (CDN) <span class="arrow">→</span> CloudFront</div>
-        <div class="proj-tags"><span class="tag">Lambda</span><span class="tag">Serverless Framework</span><span class="tag">S3</span><span class="tag">CloudFront</span><span class="tag">Python</span></div>
-      </div>
-
-      <div class="proj reveal">
-        <div class="proj-head"><div class="proj-num">PROJECT 04</div><div class="proj-status">deployed</div></div>
-        <h3 class="proj-title">Jenkins Pipeline-as-Code on Docker</h3>
-        <p class="proj-desc">Containerized Jenkins with declarative pipelines, parallel test stages, and automated quality gates before deploy.</p>
-        <div class="proj-arch">Git Push <span class="arrow">→</span> Jenkins <span class="arrow">→</span> Test/Lint <span class="arrow">→</span> Approval <span class="arrow">→</span> Deploy</div>
-        <div class="proj-tags"><span class="tag">Jenkins</span><span class="tag">Docker</span><span class="tag">Groovy</span></div>
-      </div>
-
-      <div class="proj reveal">
-        <div class="proj-head"><div class="proj-num">PROJECT 05</div><div class="proj-status">deployed</div></div>
-        <h3 class="proj-title">Multi-Environment IaC with Terraform Modules</h3>
-        <p class="proj-desc">Reusable Terraform modules driving identical dev / staging / prod environments — diffed and reviewed in pull requests.</p>
-        <div class="proj-arch">Modules <span class="arrow">→</span> Workspaces <span class="arrow">→</span> Plan <span class="arrow">→</span> Review <span class="arrow">→</span> Apply</div>
-        <div class="proj-tags"><span class="tag">Terraform</span><span class="tag">S3 Backend</span><span class="tag">Secrets Manager</span></div>
-      </div>
-
-      <div class="proj reveal">
-        <div class="proj-head"><div class="proj-num">PROJECT 06</div><div class="proj-status">deployed</div></div>
-        <h3 class="proj-title">Automated Jenkins CI/CD for Microservices</h3>
-        <p class="proj-desc">Multi-branch Jenkins pipelines with automated testing, Docker builds, and gated deployments to ECS.</p>
-        <div class="proj-arch">Git Push <span class="arrow">→</span> Jenkins Multibranch <span class="arrow">→</span> Test/Build <span class="arrow">→</span> ECR Push <span class="arrow">→</span> ECS Deploy</div>
-        <div class="proj-tags"><span class="tag">Jenkins</span><span class="tag">Docker</span><span class="tag">ECS</span><span class="tag">Groovy</span></div>
-      </div>
+        <h3 class="proj-title">CloudOps Lite — Infrastructure Automation Platform</h3>
+        <p class="proj-desc">Infrastructure-as-Code platform automating AWS environment provisioning, EC2 + Apache deployment, CloudWatch/SNS alerting, and Bash-driven cost optimization — applying CloudOps and FinOps practices end-to-end.</p>
+        <div class="proj-arch">Terraform <span class="arrow">→</span> VPC / EC2 <span class="arrow">→</span> Apache <span class="arrow">→</span> CloudWatch <span class="arrow">→</span> SNS</div>
+        <div class="proj-tags"><span class="tag">AWS</span><span class="tag">Terraform</span><span class="tag">EC2</span><span class="tag">VPC</span><span class="tag">IAM</span><span class="tag">CloudWatch</span><span class="tag">SNS</span><span class="tag">Bash</span></div>
+        <div style="margin-top:18px;font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--cyan);">↗ View on GitHub</div>
+      </a>
     </div>
   </div>
 </section>
